@@ -15,29 +15,29 @@
   --theme-border-subtle: #34353A;
   --theme-border-strong: #43444A;
 
-  /* Primary brand – Blue/Purple */
-  --theme-primary-600: #5B6FDB;
-  --theme-primary-500: #6B7FEB;
-  --theme-primary-400: #8B9FFB;
-  --theme-primary-300: #A8B7FF;
-  --theme-primary-200: #C8D1FF;
-  --theme-primary-50:  #EEF0FF;
+  /* Primary brand – tuned to Ocean Professional palette */
+  --theme-primary-600: #1E40AF;     /* darker shade of #2563EB */
+  --theme-primary-500: #2563EB;     /* primary */
+  --theme-primary-400: #3B82F6;
+  --theme-primary-300: #60A5FA;
+  --theme-primary-200: #93C5FD;
+  --theme-primary-50:  #DBEAFE;
 
   /* Accent aliases for backwards compatibility */
   --theme-accent: var(--theme-primary-500);
   --theme-accent-strong: var(--theme-primary-600);
 
-  /* Semantic */
-  --theme-success: #40D79E;
-  --theme-warning: #FFC75A;
-  --theme-danger:  #FF6B6B;
-  --theme-info:    #6EB9FF;
+  /* Semantic aligned to Ocean Professional */
+  --theme-success: #10B981;
+  --theme-warning: #F59E0B; /* secondary as warning/success accent per guidance */
+  --theme-danger:  #EF4444;
+  --theme-info:    #60A5FA;
 
   /* Controls */
-  --theme-btn-primary-fg: #1A1B1F;
+  --theme-btn-primary-fg: #FFFFFF;
   --theme-btn-primary-bg: var(--theme-primary-500);
   --theme-btn-primary-hover: var(--theme-primary-600);
-  --theme-btn-primary-press: #4B5FCB;
+  --theme-btn-primary-press: #1E3A8A;
   --theme-btn-ghost-fg: var(--theme-text-secondary);
   --theme-btn-ghost-hover-bg: var(--theme-bg-elev-2);
   --theme-chip-bg: var(--theme-bg-elev-2);
@@ -47,7 +47,7 @@
 
   /* Focus and overlays */
   --theme-focus-ring: var(--theme-primary-400);
-  --theme-overlay-ambient: linear-gradient(180deg, rgba(107,127,235,0.18) 0%, rgba(0,0,0,0) 55%);
+  --theme-overlay-ambient: linear-gradient(180deg, rgba(37,99,235,0.18) 0%, rgba(0,0,0,0) 55%);
 
   /* Lines (generic fallbacks still supported) */
   --line-subtle: var(--theme-border-subtle);
@@ -68,12 +68,12 @@
   --accent-primary: var(--theme-primary-500);
   --accent-primary-600: var(--theme-primary-600);
   --accent-primary-400: var(--theme-primary-400);
-  --accent-secondary: #17D1D4;
+  --accent-secondary: #F59E0B;
   --accent-warm: #FF5C8A;
 
-  /* Gradients: primary brand */
+  /* Gradients aligned to Ocean theme */
   --grad-primary: linear-gradient(135deg, var(--theme-primary-600) 0%, var(--theme-primary-400) 50%, var(--theme-primary-300) 100%);
-  --grad-hero: radial-gradient(1200px 600px at 60% -10%, rgba(107,127,235,0.22) 0%, rgba(139,159,251,0.15) 35%, rgba(26,27,31,0) 70%);
+  --grad-hero: radial-gradient(1200px 600px at 60% -10%, rgba(37,99,235,0.22) 0%, rgba(96,165,250,0.15) 35%, rgba(26,27,31,0) 70%);
 }
 
 /* Base */
